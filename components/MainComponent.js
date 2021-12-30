@@ -9,7 +9,7 @@ class Main extends Component {
         super(props);
         this.state = {
             campsites: CAMPSITES,
-            selectedCamsite: null
+            selectedCampsite: null
         };
     }
     
