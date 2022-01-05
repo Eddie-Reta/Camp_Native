@@ -41,7 +41,6 @@ function RenderItem(props) {
     return <View />;
 }
 
-
 class Home extends Component {
 
     constructor(props) {
@@ -85,7 +84,7 @@ class Home extends Component {
                 />
                 <RenderItem
                     item={this.props.partners.partners.filter(partner => partner.featured)[0]}
-                    isLoading={this.props.partners.isLoading}
+                    isLoading={this.props.partners.isLoading} 
                     errMess={this.props.partners.errMess}
                 />
             </Animated.ScrollView>
